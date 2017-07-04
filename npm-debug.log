@@ -1,0 +1,388 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.3.2
+3 info using node@v0.10.13
+4 verbose node symlink C:\Program Files (x86)\nodejs\\node.exe
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ 'C:\\xampp\\htdocs\\GOT',
+6 verbose install   [ 'axios',
+6 verbose install     'bootstrap-sass',
+6 verbose install     'jquery',
+6 verbose install     'laravel-mix',
+6 verbose install     'lodash',
+6 verbose install     'vue' ] ]
+7 info preinstall @
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'bootstrap-sass@^3.3.7', null ]
+10 verbose cache add name=undefined spec="bootstrap-sass@^3.3.7" args=["bootstrap-sass@^3.3.7",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'bootstrap-sass@^3.3.7',
+11 verbose parsed url   path: 'bootstrap-sass@^3.3.7',
+11 verbose parsed url   href: 'bootstrap-sass@^3.3.7' }
+12 verbose cache add name="bootstrap-sass" spec="^3.3.7" args=["bootstrap-sass","^3.3.7"]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: '^3.3.7',
+13 verbose parsed url   path: '^3.3.7',
+13 verbose parsed url   href: '^3.3.7' }
+14 verbose addNamed [ 'bootstrap-sass', '^3.3.7' ]
+15 verbose addNamed [ null, null ]
+16 verbose cache add [ 'axios@^0.15.3', null ]
+17 verbose cache add name=undefined spec="axios@^0.15.3" args=["axios@^0.15.3",null]
+18 verbose parsed url { protocol: null,
+18 verbose parsed url   slashes: null,
+18 verbose parsed url   auth: null,
+18 verbose parsed url   host: null,
+18 verbose parsed url   port: null,
+18 verbose parsed url   hostname: null,
+18 verbose parsed url   hash: null,
+18 verbose parsed url   search: null,
+18 verbose parsed url   query: null,
+18 verbose parsed url   pathname: 'axios@^0.15.3',
+18 verbose parsed url   path: 'axios@^0.15.3',
+18 verbose parsed url   href: 'axios@^0.15.3' }
+19 verbose cache add name="axios" spec="^0.15.3" args=["axios","^0.15.3"]
+20 verbose parsed url { protocol: null,
+20 verbose parsed url   slashes: null,
+20 verbose parsed url   auth: null,
+20 verbose parsed url   host: null,
+20 verbose parsed url   port: null,
+20 verbose parsed url   hostname: null,
+20 verbose parsed url   hash: null,
+20 verbose parsed url   search: null,
+20 verbose parsed url   query: null,
+20 verbose parsed url   pathname: '^0.15.3',
+20 verbose parsed url   path: '^0.15.3',
+20 verbose parsed url   href: '^0.15.3' }
+21 verbose addNamed [ 'axios', '^0.15.3' ]
+22 verbose addNamed [ null, null ]
+23 verbose cache add [ 'jquery@^3.1.1', null ]
+24 verbose cache add name=undefined spec="jquery@^3.1.1" args=["jquery@^3.1.1",null]
+25 verbose parsed url { protocol: null,
+25 verbose parsed url   slashes: null,
+25 verbose parsed url   auth: null,
+25 verbose parsed url   host: null,
+25 verbose parsed url   port: null,
+25 verbose parsed url   hostname: null,
+25 verbose parsed url   hash: null,
+25 verbose parsed url   search: null,
+25 verbose parsed url   query: null,
+25 verbose parsed url   pathname: 'jquery@^3.1.1',
+25 verbose parsed url   path: 'jquery@^3.1.1',
+25 verbose parsed url   href: 'jquery@^3.1.1' }
+26 verbose cache add name="jquery" spec="^3.1.1" args=["jquery","^3.1.1"]
+27 verbose parsed url { protocol: null,
+27 verbose parsed url   slashes: null,
+27 verbose parsed url   auth: null,
+27 verbose parsed url   host: null,
+27 verbose parsed url   port: null,
+27 verbose parsed url   hostname: null,
+27 verbose parsed url   hash: null,
+27 verbose parsed url   search: null,
+27 verbose parsed url   query: null,
+27 verbose parsed url   pathname: '^3.1.1',
+27 verbose parsed url   path: '^3.1.1',
+27 verbose parsed url   href: '^3.1.1' }
+28 verbose addNamed [ 'jquery', '^3.1.1' ]
+29 verbose addNamed [ null, null ]
+30 verbose cache add [ 'laravel-mix@^0.8.1', null ]
+31 verbose cache add name=undefined spec="laravel-mix@^0.8.1" args=["laravel-mix@^0.8.1",null]
+32 verbose parsed url { protocol: null,
+32 verbose parsed url   slashes: null,
+32 verbose parsed url   auth: null,
+32 verbose parsed url   host: null,
+32 verbose parsed url   port: null,
+32 verbose parsed url   hostname: null,
+32 verbose parsed url   hash: null,
+32 verbose parsed url   search: null,
+32 verbose parsed url   query: null,
+32 verbose parsed url   pathname: 'laravel-mix@^0.8.1',
+32 verbose parsed url   path: 'laravel-mix@^0.8.1',
+32 verbose parsed url   href: 'laravel-mix@^0.8.1' }
+33 verbose cache add name="laravel-mix" spec="^0.8.1" args=["laravel-mix","^0.8.1"]
+34 verbose parsed url { protocol: null,
+34 verbose parsed url   slashes: null,
+34 verbose parsed url   auth: null,
+34 verbose parsed url   host: null,
+34 verbose parsed url   port: null,
+34 verbose parsed url   hostname: null,
+34 verbose parsed url   hash: null,
+34 verbose parsed url   search: null,
+34 verbose parsed url   query: null,
+34 verbose parsed url   pathname: '^0.8.1',
+34 verbose parsed url   path: '^0.8.1',
+34 verbose parsed url   href: '^0.8.1' }
+35 verbose addNamed [ 'laravel-mix', '^0.8.1' ]
+36 verbose addNamed [ null, null ]
+37 verbose cache add [ 'lodash@^4.17.4', null ]
+38 verbose cache add name=undefined spec="lodash@^4.17.4" args=["lodash@^4.17.4",null]
+39 verbose parsed url { protocol: null,
+39 verbose parsed url   slashes: null,
+39 verbose parsed url   auth: null,
+39 verbose parsed url   host: null,
+39 verbose parsed url   port: null,
+39 verbose parsed url   hostname: null,
+39 verbose parsed url   hash: null,
+39 verbose parsed url   search: null,
+39 verbose parsed url   query: null,
+39 verbose parsed url   pathname: 'lodash@^4.17.4',
+39 verbose parsed url   path: 'lodash@^4.17.4',
+39 verbose parsed url   href: 'lodash@^4.17.4' }
+40 verbose cache add name="lodash" spec="^4.17.4" args=["lodash","^4.17.4"]
+41 verbose parsed url { protocol: null,
+41 verbose parsed url   slashes: null,
+41 verbose parsed url   auth: null,
+41 verbose parsed url   host: null,
+41 verbose parsed url   port: null,
+41 verbose parsed url   hostname: null,
+41 verbose parsed url   hash: null,
+41 verbose parsed url   search: null,
+41 verbose parsed url   query: null,
+41 verbose parsed url   pathname: '^4.17.4',
+41 verbose parsed url   path: '^4.17.4',
+41 verbose parsed url   href: '^4.17.4' }
+42 verbose addNamed [ 'lodash', '^4.17.4' ]
+43 verbose addNamed [ null, null ]
+44 verbose cache add [ 'vue@^2.1.10', null ]
+45 verbose cache add name=undefined spec="vue@^2.1.10" args=["vue@^2.1.10",null]
+46 verbose parsed url { protocol: null,
+46 verbose parsed url   slashes: null,
+46 verbose parsed url   auth: null,
+46 verbose parsed url   host: null,
+46 verbose parsed url   port: null,
+46 verbose parsed url   hostname: null,
+46 verbose parsed url   hash: null,
+46 verbose parsed url   search: null,
+46 verbose parsed url   query: null,
+46 verbose parsed url   pathname: 'vue@^2.1.10',
+46 verbose parsed url   path: 'vue@^2.1.10',
+46 verbose parsed url   href: 'vue@^2.1.10' }
+47 verbose cache add name="vue" spec="^2.1.10" args=["vue","^2.1.10"]
+48 verbose parsed url { protocol: null,
+48 verbose parsed url   slashes: null,
+48 verbose parsed url   auth: null,
+48 verbose parsed url   host: null,
+48 verbose parsed url   port: null,
+48 verbose parsed url   hostname: null,
+48 verbose parsed url   hash: null,
+48 verbose parsed url   search: null,
+48 verbose parsed url   query: null,
+48 verbose parsed url   pathname: '^2.1.10',
+48 verbose parsed url   path: '^2.1.10',
+48 verbose parsed url   href: '^2.1.10' }
+49 verbose addNamed [ 'vue', '^2.1.10' ]
+50 verbose addNamed [ null, null ]
+51 silly lockFile 2486ac53-bootstrap-sass-3-3-7 bootstrap-sass@^3.3.7
+52 verbose lock bootstrap-sass@^3.3.7 C:\Users\DEVELOPMENT\AppData\Roaming\npm-cache\2486ac53-bootstrap-sass-3-3-7.lock
+53 silly lockFile ad8a6a70-laravel-mix-0-8-1 laravel-mix@^0.8.1
+54 verbose lock laravel-mix@^0.8.1 C:\Users\DEVELOPMENT\AppData\Roaming\npm-cache\ad8a6a70-laravel-mix-0-8-1.lock
+55 silly addNameRange { name: 'bootstrap-sass', range: '*', hasData: false }
+56 silly lockFile a2c60d87-jquery-3-1-1 jquery@^3.1.1
+57 verbose lock jquery@^3.1.1 C:\Users\DEVELOPMENT\AppData\Roaming\npm-cache\a2c60d87-jquery-3-1-1.lock
+58 silly lockFile fbfc2d26-axios-0-15-3 axios@^0.15.3
+59 verbose lock axios@^0.15.3 C:\Users\DEVELOPMENT\AppData\Roaming\npm-cache\fbfc2d26-axios-0-15-3.lock
+60 silly lockFile f25314eb-lodash-4-17-4 lodash@^4.17.4
+61 verbose lock lodash@^4.17.4 C:\Users\DEVELOPMENT\AppData\Roaming\npm-cache\f25314eb-lodash-4-17-4.lock
+62 silly lockFile 007d1ed8-vue-2-1-10 vue@^2.1.10
+63 verbose lock vue@^2.1.10 C:\Users\DEVELOPMENT\AppData\Roaming\npm-cache\007d1ed8-vue-2-1-10.lock
+64 silly addNameRange { name: 'laravel-mix', range: '*', hasData: false }
+65 verbose url raw bootstrap-sass
+66 verbose url resolving [ 'https://registry.npmjs.org/', './bootstrap-sass' ]
+67 verbose url resolved https://registry.npmjs.org/bootstrap-sass
+68 info trying registry request attempt 1 at 11:50:25
+69 verbose etag "58d6fa17-70d5"
+70 http GET https://registry.npmjs.org/bootstrap-sass
+71 verbose url raw laravel-mix
+72 verbose url resolving [ 'https://registry.npmjs.org/', './laravel-mix' ]
+73 verbose url resolved https://registry.npmjs.org/laravel-mix
+74 info trying registry request attempt 1 at 11:50:25
+75 verbose etag "58d6b3b5-1c89f"
+76 http GET https://registry.npmjs.org/laravel-mix
+77 http 304 https://registry.npmjs.org/bootstrap-sass
+78 silly registry.get cb [ 304,
+78 silly registry.get   { date: 'Tue, 28 Mar 2017 08:50:22 GMT',
+78 silly registry.get     via: '1.1 varnish',
+78 silly registry.get     'cache-control': 'max-age=300',
+78 silly registry.get     etag: '"58d6fa17-70d5"',
+78 silly registry.get     age: '0',
+78 silly registry.get     connection: 'keep-alive',
+78 silly registry.get     'x-served-by': 'cache-fjr7922-FJR',
+78 silly registry.get     'x-cache': 'MISS',
+78 silly registry.get     'x-cache-hits': '0',
+78 silly registry.get     'x-timer': 'S1490691022.088726,VS0,VE512',
+78 silly registry.get     vary: 'Accept-Encoding' } ]
+79 verbose etag bootstrap-sass from cache
+80 silly addNameRange { name: 'axios', range: '*', hasData: false }
+81 verbose registry.get axios not expired, no request
+82 silly addNameRange number 2 { name: 'axios', range: '*', hasData: true }
+83 silly addNameRange versions [ 'axios',
+83 silly addNameRange   [ '0.1.0',
+83 silly addNameRange     '0.2.0',
+83 silly addNameRange     '0.2.1',
+83 silly addNameRange     '0.2.2',
+83 silly addNameRange     '0.3.0',
+83 silly addNameRange     '0.3.1',
+83 silly addNameRange     '0.4.0',
+83 silly addNameRange     '0.4.1',
+83 silly addNameRange     '0.4.2',
+83 silly addNameRange     '0.5.0',
+83 silly addNameRange     '0.5.1',
+83 silly addNameRange     '0.5.2',
+83 silly addNameRange     '0.5.3',
+83 silly addNameRange     '0.5.4',
+83 silly addNameRange     '0.6.0',
+83 silly addNameRange     '0.7.0',
+83 silly addNameRange     '0.8.0',
+83 silly addNameRange     '0.8.1',
+83 silly addNameRange     '0.9.0',
+83 silly addNameRange     '0.9.1',
+83 silly addNameRange     '0.10.0',
+83 silly addNameRange     '0.11.0',
+83 silly addNameRange     '0.11.1',
+83 silly addNameRange     '0.12.0',
+83 silly addNameRange     '0.13.0',
+83 silly addNameRange     '0.13.1',
+83 silly addNameRange     '0.14.0',
+83 silly addNameRange     '0.15.0',
+83 silly addNameRange     '0.15.1',
+83 silly addNameRange     '0.15.2',
+83 silly addNameRange     '0.15.3' ] ]
+84 verbose addNamed [ 'axios', '0.15.3' ]
+85 verbose addNamed [ '0.15.3', '0.15.3' ]
+86 silly lockFile c1319f7e-axios-0-15-3 axios@0.15.3
+87 verbose lock axios@0.15.3 C:\Users\DEVELOPMENT\AppData\Roaming\npm-cache\c1319f7e-axios-0-15-3.lock
+88 silly addNameRange number 2 { name: 'bootstrap-sass', range: '*', hasData: true }
+89 silly addNameRange versions [ 'bootstrap-sass',
+89 silly addNameRange   [ '2.3.2',
+89 silly addNameRange     '3.1.1',
+89 silly addNameRange     '3.2.0',
+89 silly addNameRange     '3.3.0',
+89 silly addNameRange     '3.3.1',
+89 silly addNameRange     '3.3.2',
+89 silly addNameRange     '3.3.3',
+89 silly addNameRange     '3.3.4',
+89 silly addNameRange     '3.3.5',
+89 silly addNameRange     '3.3.6',
+89 silly addNameRange     '3.3.7' ] ]
+90 verbose addNamed [ 'bootstrap-sass', '3.3.7' ]
+91 verbose addNamed [ '3.3.7', '3.3.7' ]
+92 silly lockFile 33301572-bootstrap-sass-3-3-7 bootstrap-sass@3.3.7
+93 verbose lock bootstrap-sass@3.3.7 C:\Users\DEVELOPMENT\AppData\Roaming\npm-cache\33301572-bootstrap-sass-3-3-7.lock
+94 silly lockFile c1319f7e-axios-0-15-3 axios@0.15.3
+95 silly lockFile c1319f7e-axios-0-15-3 axios@0.15.3
+96 silly lockFile fbfc2d26-axios-0-15-3 axios@^0.15.3
+97 silly lockFile fbfc2d26-axios-0-15-3 axios@^0.15.3
+98 silly lockFile 33301572-bootstrap-sass-3-3-7 bootstrap-sass@3.3.7
+99 silly lockFile 33301572-bootstrap-sass-3-3-7 bootstrap-sass@3.3.7
+100 silly lockFile 2486ac53-bootstrap-sass-3-3-7 bootstrap-sass@^3.3.7
+101 silly lockFile 2486ac53-bootstrap-sass-3-3-7 bootstrap-sass@^3.3.7
+102 http 304 https://registry.npmjs.org/laravel-mix
+103 silly registry.get cb [ 304,
+103 silly registry.get   { date: 'Tue, 28 Mar 2017 08:50:24 GMT',
+103 silly registry.get     via: '1.1 varnish',
+103 silly registry.get     'cache-control': 'max-age=300',
+103 silly registry.get     etag: '"58d6b3b5-1c89f"',
+103 silly registry.get     age: '0',
+103 silly registry.get     connection: 'keep-alive',
+103 silly registry.get     'x-served-by': 'cache-fjr7922-FJR',
+103 silly registry.get     'x-cache': 'HIT',
+103 silly registry.get     'x-cache-hits': '1',
+103 silly registry.get     'x-timer': 'S1490691024.948627,VS0,VE0',
+103 silly registry.get     vary: 'Accept-Encoding' } ]
+104 verbose etag laravel-mix from cache
+105 silly addNameRange number 2 { name: 'laravel-mix', range: '*', hasData: true }
+106 silly addNameRange versions [ 'laravel-mix',
+106 silly addNameRange   [ '0.1.0',
+106 silly addNameRange     '0.2.0',
+106 silly addNameRange     '0.2.1',
+106 silly addNameRange     '0.2.2',
+106 silly addNameRange     '0.2.3',
+106 silly addNameRange     '0.2.4',
+106 silly addNameRange     '0.2.5',
+106 silly addNameRange     '0.2.7',
+106 silly addNameRange     '0.2.8',
+106 silly addNameRange     '0.2.10',
+106 silly addNameRange     '0.3.0',
+106 silly addNameRange     '0.4.0',
+106 silly addNameRange     '0.5.0',
+106 silly addNameRange     '0.5.1',
+106 silly addNameRange     '0.5.2',
+106 silly addNameRange     '0.5.3',
+106 silly addNameRange     '0.5.4',
+106 silly addNameRange     '0.5.5',
+106 silly addNameRange     '0.5.6',
+106 silly addNameRange     '0.5.7',
+106 silly addNameRange     '0.5.8',
+106 silly addNameRange     '0.5.9',
+106 silly addNameRange     '0.5.10',
+106 silly addNameRange     '0.5.11',
+106 silly addNameRange     '0.5.12',
+106 silly addNameRange     '0.5.13',
+106 silly addNameRange     '0.5.14',
+106 silly addNameRange     '0.5.15',
+106 silly addNameRange     '0.5.16',
+106 silly addNameRange     '0.6.0',
+106 silly addNameRange     '0.6.1',
+106 silly addNameRange     '0.6.2',
+106 silly addNameRange     '0.6.3',
+106 silly addNameRange     '0.7.0',
+106 silly addNameRange     '0.7.1',
+106 silly addNameRange     '0.7.2',
+106 silly addNameRange     '0.7.3',
+106 silly addNameRange     '0.7.4',
+106 silly addNameRange     '0.7.5',
+106 silly addNameRange     '0.8.0',
+106 silly addNameRange     '0.8.1',
+106 silly addNameRange     '0.8.2',
+106 silly addNameRange     '0.8.3',
+106 silly addNameRange     '0.8.4',
+106 silly addNameRange     '0.8.5',
+106 silly addNameRange     '0.8.6',
+106 silly addNameRange     '0.8.7',
+106 silly addNameRange     '0.8.8',
+106 silly addNameRange     '0.8.9',
+106 silly addNameRange     '0.9.0',
+106 silly addNameRange     '0.9.1',
+106 silly addNameRange     '0.9.2' ] ]
+107 verbose addNamed [ 'laravel-mix', '0.9.2' ]
+108 verbose addNamed [ '0.9.2', '0.9.2' ]
+109 silly lockFile 01c9c998-laravel-mix-0-9-2 laravel-mix@0.9.2
+110 verbose lock laravel-mix@0.9.2 C:\Users\DEVELOPMENT\AppData\Roaming\npm-cache\01c9c998-laravel-mix-0-9-2.lock
+111 silly lockFile 01c9c998-laravel-mix-0-9-2 laravel-mix@0.9.2
+112 silly lockFile 01c9c998-laravel-mix-0-9-2 laravel-mix@0.9.2
+113 silly lockFile ad8a6a70-laravel-mix-0-8-1 laravel-mix@^0.8.1
+114 silly lockFile ad8a6a70-laravel-mix-0-8-1 laravel-mix@^0.8.1
+115 silly lockFile 007d1ed8-vue-2-1-10 vue@^2.1.10
+116 error Error: EPERM, open 'C:\Users\DEVELOPMENT\AppData\Roaming\npm-cache\007d1ed8-vue-2-1-10.lock'
+116 error  { [Error: EPERM, open 'C:\Users\DEVELOPMENT\AppData\Roaming\npm-cache\007d1ed8-vue-2-1-10.lock']
+116 error   errno: 50,
+116 error   code: 'EPERM',
+116 error   path: 'C:\\Users\\DEVELOPMENT\\AppData\\Roaming\\npm-cache\\007d1ed8-vue-2-1-10.lock' }
+117 error Please try running this command again as root/Administrator.
+118 error System Windows_NT 6.2.9200
+119 error command "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+120 error cwd C:\xampp\htdocs\GOT
+121 error node -v v0.10.13
+122 error npm -v 1.3.2
+123 error path C:\Users\DEVELOPMENT\AppData\Roaming\npm-cache\007d1ed8-vue-2-1-10.lock
+124 error code EPERM
+125 error errno 50
+126 error stack Error: EPERM, open 'C:\Users\DEVELOPMENT\AppData\Roaming\npm-cache\007d1ed8-vue-2-1-10.lock'
+127 verbose exit [ 50, true ]
